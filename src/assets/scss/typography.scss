@@ -1,0 +1,69 @@
+//Typography
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap&subset=cyrillic-ext');
+
+.font--main {
+    font-family: Noto Sans, sans-serif;
+}
+
+//Font Weight
+.font--bold {
+    font-weight: 700;
+}
+
+.font--regular {
+    font-weight: 400;
+}
+
+//Font Size
+.font--size-x {
+    font-size: 24px;
+}
+
+.font--size-m {
+    font-size: 16px;
+}
+
+.font--size-s {
+    font-size: 13px;
+}
+
+//Text Blocks
+.font--title {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.font--slogan {
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin-top: 4px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #5f5f5f;
+    text-align: center;
+    width: 100%;
+}
+
+.font--update {
+    display: block;
+    margin: 10px 0;
+    line-height: 16px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #aabacb;
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+}
+
+.font--num b {
+    font-size: 24px;
+}
+//Font Colors
+.font--color-secondary {
+    color: $text-color-secondary;
+}

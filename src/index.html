@@ -1,0 +1,155 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c7ef6f0ca.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/logo.png" class="img-logo" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#social" aria-controls="social" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="social">
+                    <ul class="navbar-nav ml-auto">
+                        
+                            <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+                        
+                        
+                            <a class="nav-link" href="#"><i class="fab fa-youtube"></i></a>
+              
+                        
+                            <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                       
+                       
+                            <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                        
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="product-cards-container pt-5">
+
+        <div class="container">
+
+            <div class="row no-gutters">
+                <div class="col-12 ">
+                    <h3 class="font--title">Кредит: без справок, в отделении</h3>
+                    <span class="font--color-secondary font--slogan">
+                        Сравнивайте и заказывайте кредиты украинских банков
+                    </span>
+                    <span class="font--update">Обновлено 16.09.2019</span>
+                </div>
+            </div>
+
+            <div class="card card-content-p font--main">
+                <div class="row no-gutters">
+                    <div class="col-3 card__thumbnail">
+                        <img src="./assets/images/moneyveo.jpg" class="card__img" alt="FinHelp-MoneyVeo">
+                        <div>
+                            <span class="font--size-s font--color-secondary">
+                                Кредит онлайн від "MoneyVeo"
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-1 text-center">
+                        <span class="font--num font--bold">
+                            від <b>0.95%</b>
+                        </span>
+                        <br>
+                        <span class="font--size-s font--color-secondary">
+                            ставка в день
+                        </span>
+                    </div>
+                    <div class="col-2 text-center">
+                        <span class="font--num font--bold">до <b>10 000 $</b></span><br>
+                        <span class="font--size-s font--color-secondary">
+                            максимальна сумма
+                        </span>
+                    </div>
+
+                    <div class="col-3">
+
+                    </div>
+
+                    <div class="col-3">
+                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-primary btn-lg">Отримати кредит</button>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-light card__toggle-arrow btn-lg collapsed"
+                                    data-toggle="collapse" data-target="#moneyveo" aria-expanded="false"
+                                    aria-controls="moneyveo">
+                                    <i class="fas fa-arrow-down"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters mt-3 collapse" id="moneyveo">
+                    <div class="col-12 border-top pt-3"></div>
+                    <div class="col-4">
+                        <div class="card__list">
+                            <span class="card__list-title">Преимущества</span>
+                            <span class="card__list-item">Уникальный сервис</span>
+                            <span class="card__list-item">Индивидуальный подход</span>
+                            <span class="card__list-item">Доступ 24 часа в сутки</span>
+                            <span class="card__list-item">Скорость</span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card__list">
+                            <span class="card__list-title">Погашение</span>
+                            <span class="card__list-item">Оплата на расчетный счёт</span>
+                            <span class="card__list-item">Онлайн (через сайт или интернет-банкинг)</span>
+                            <span class="card__list-item">Через терминалы Приватбанка</span>
+                        </div>
+                        <div class="card__list">
+                            <span class="card__list-title">Продление</span>
+                            <span class="card__list-item">нет</span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card__list">
+                            <span class="card__list-title">Требуемые документы</span>
+                            <span class="card__list-item">паспорт, ИНН</span>
+                        </div>
+                        <div class="card__list">
+                            <span class="card__list-title">Возраст</span>
+                            <span class="card__list-item">от 18 до 65 лет</span>
+                        </div>
+                        <div class="card__list">
+                            <span class="card__list-title">Свідоцтво ФК №1103, 03.10.2018</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+</body>

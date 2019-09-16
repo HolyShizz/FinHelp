@@ -1,0 +1,14 @@
+@import "./typography.scss";
+@import "./layout.scss";
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.img-logo {
+    max-width: 120px;
+    width: 100%;
+    height: auto;
+}

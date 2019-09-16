@@ -1,0 +1,63 @@
+.card-content-p {
+    padding: 16px 24px;
+}
+
+.card__thumbnail {
+    text-align: center;
+
+    img {
+        max-width: 160px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.card__list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: #252525;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.card__list-item {
+    display: block;
+    position: relative;
+    padding-left: 24px;
+
+    &:before {
+        position: absolute;
+        content: "\2014";
+        top: 0;
+        left: 0;
+        width: 24px;
+        color: #32a2ca;
+    }
+
+}
+
+.card__list-title {
+    display: block;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.fas.fa-arrow-down {
+    transition: all 300ms linear;
+    color: $accent;
+}
+
+.card__toggle-arrow {
+    .fas.fa-arrow-down {
+        transform: rotate(180deg);
+    }
+}
+
+.card__toggle-arrow.collapsed  {
+    .fas.fa-arrow-down {
+        transform: rotate(0deg);
+        transition: all 300ms linear;
+        color: $blue;
+    }
+}
